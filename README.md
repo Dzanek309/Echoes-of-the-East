@@ -1,1 +1,2 @@
-# Work in progress
+## Work in progress
+![App Screenshot](screenshot.png)
