@@ -1,0 +1,34 @@
+.whyUs {
+    width: 90%;
+    height: 500px;
+    background-color: #efefef;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.whyUs__cards-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+/* <div className= {
+    styles['whyUs']
+}
+
+><h1 className= {
+    styles['whyUs__title']
+}
+
+>WHY US</h1><p className= {
+    styles['whyUs__desc']
+}
+
+>blah blah blah blah blah blah blah blah blah blah </p><div className= {
+    [styles['whyUs__cards-wrapper']]
+}
+
+> */

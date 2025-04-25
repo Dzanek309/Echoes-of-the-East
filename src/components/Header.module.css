@@ -1,0 +1,26 @@
+.header {
+    width: 90%;
+    height: 600px;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.title {
+    position: absolute;
+    z-index: 5;
+    color: white;
+    font-size: 140px;
+    padding: 20px;
+    font-weight: 100;
+    pointer-events: none;
+}

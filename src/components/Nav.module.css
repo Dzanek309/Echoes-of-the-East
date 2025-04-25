@@ -1,0 +1,43 @@
+.nav {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.nav__title {
+    padding: 10px;
+    color: black;
+    align-self: self-end;
+}
+
+.wrapper__links {
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.contact-button {
+    width: 100px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+.contact-button:hover {
+    background-color: #d44f61;
+}

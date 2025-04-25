@@ -1,0 +1,50 @@
+.newsletter {
+    width: 90%;
+    height: 350px;
+    border-radius: 25px;
+    background-color: crimson;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.newsletter__link {
+    color: white;
+    text-decoration: underline;
+}
+
+.newsletter__title {
+    font-weight: bold;
+    color: white;
+}
+
+.newsletter__text-form {
+    width: 500px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.newsletter__submit-btn {
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.newsletter__submit-btn:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}

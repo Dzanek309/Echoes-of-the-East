@@ -1,0 +1,65 @@
+.card-container {
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 150px;
+}
+
+
+.card__photo {
+    height: 70%;
+    border-radius: 15px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.card__photo-title {
+    font-size: 30px;
+}
+
+
+/* .card__location {} */
+
+
+.card__location-logo {
+    height: 16px;
+}
+
+
+/* .card__location-location {} */
+
+
+.card__rating {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    align-content: space-around;
+    border: 11px solid;
+    flex: none;
+}
+
+
+/* .card__rating-number {} */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-row {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
